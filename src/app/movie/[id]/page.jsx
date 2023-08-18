@@ -21,7 +21,7 @@ const MoviePage = async ({ params }) => {
 					}`}
 					width={500}
 					height={300}
-					alt={movie.title || movie.name}
+					alt="Movie poster"
 					className="rounded-lg"
 					placeholder="blur"
 					blurDataURL="spinner.svg"
