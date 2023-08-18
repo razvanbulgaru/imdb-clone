@@ -13,10 +13,10 @@ const Card = ({ result }) => {
 					}`}
 					width={500}
 					height={300}
-					alt={result.title}
+					alt={result.title || result.name}
 					className="sm:rounded-t-lg group-hover:opacity-80 transition-opacity duration-200"
 					placeholder="blur"
-					blurDataURL="/spinner.svg"
+					blurDataURL="spinner.svg"
 					style={{ maxWidth: '100%', height: 'auto' }}
 				></Image>
 				<div className="p-2">
