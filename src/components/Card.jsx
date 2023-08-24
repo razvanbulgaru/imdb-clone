@@ -10,8 +10,8 @@ export default function Card({ result }) {
 					src={`https://image.tmdb.org/t/p/original/${
 						result.backdrop_path || result.poster_path
 					}`}
-					width={500}
-					height={300}
+					width="500"
+					height="300"
 					className="sm:rounded-t-lg group-hover:opacity-80 transition-opacity duration-200"
 					style={{
 						maxWidth: '100%',
